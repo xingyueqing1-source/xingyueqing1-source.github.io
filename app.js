@@ -29,6 +29,19 @@
     return "";
   };
 
+  const renderAboutParagraph = (paragraph) => {
+    if (typeof paragraph === "string") return `<p>${escapeHtml(paragraph)}</p>`;
+
+    const linkUrl = safeUrl(paragraph?.linkUrl);
+    const linkedText = linkUrl
+      ? `<a href="${escapeHtml(linkUrl)}" target="_blank" rel="noreferrer">${escapeHtml(
+          paragraph.linkLabel,
+        )}</a>`
+      : escapeHtml(paragraph?.linkLabel);
+
+    return `<p>${escapeHtml(paragraph?.prefix)}${linkedText}${escapeHtml(paragraph?.suffix)}</p>`;
+  };
+
   const icon = (name) => {
     const icons = {
       github:
@@ -125,7 +138,7 @@
           <p class="section-kicker">A brief introduction</p>
           <h2>About</h2>
           <div class="prose">
-            ${content.about.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+            ${content.about.map(renderAboutParagraph).join("")}
           </div>
         </section>`,
     });

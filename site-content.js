@@ -27,6 +27,13 @@ window.siteContent = {
   about: [
     "Hello — I’m Yueqing Xing, a fourth-year undergraduate in Cybersecurity at the School of Cyber Science and Engineering, Nanjing University of Science and Technology, expecting to graduate in June 2027. My interests lie at the intersection of machine learning, recommender systems, matrix completion, and uncertainty quantification.",
     "I am interested in developing reliable learning methods that combine finite-sample guarantees with practical implementations. My recent work focuses on conformal inference for binary matrix completion, especially under distribution shift and model misspecification.",
+    {
+      prefix:
+        "I have been admitted to the master’s program at Southeast University and will join Prof. Fan Liu’s ",
+      linkLabel: "MAI Group",
+      linkUrl: "https://mai-palm-seu.github.io/",
+      suffix: " in 2027 to begin my graduate studies.",
+    },
   ],
 
   work: [
