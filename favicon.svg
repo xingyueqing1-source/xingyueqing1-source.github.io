@@ -1,5 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="15" fill="#172332"/>
-  <path d="M12 17h9l11 15 11-15h9L36 39v10h-8V39L12 17Z" fill="#f7f4ee"/>
-  <circle cx="49" cy="48" r="5" fill="#b88a3b"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Cat icon">
+  <rect width="64" height="64" rx="16" fill="#172332"/>
+  <path
+    d="M14 27 12 10l13 8c2-.7 4.4-1 7-1s5 .3 7 1l13-8-2 17c3.2 4 5 8.8 5 14 0 11-9.6 17-23 17S9 52 9 41c0-5.2 1.8-10 5-14Z"
+    fill="#f7f4ee"
+  />
+  <circle cx="23" cy="36" r="3.5" fill="#172332"/>
+  <circle cx="41" cy="36" r="3.5" fill="#172332"/>
+  <path d="m32 41 4 3-4 3-4-3 4-3Z" fill="#b88a3b"/>
 </svg>
