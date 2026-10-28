@@ -48,7 +48,7 @@ NAME = paragraph_style(
     "Name",
     fontName="Helvetica-Bold",
     fontSize=25,
-    leading=27,
+    leading=30,
     textColor=NAVY,
 )
 TAGLINE = paragraph_style(
@@ -289,6 +289,7 @@ def build():
             [
                 [
                     Paragraph("Yueqing Xing", NAME),
+                    Spacer(1, 3),
                     Paragraph(
                         "Cybersecurity undergraduate focused on reliable machine learning",
                         TAGLINE,
