@@ -47,7 +47,8 @@ The generated PDF is written to `output/pdf/Yueqing-Xing-CV-English.pdf`, which 
 - `styles.css` — visual design and responsive behavior
 - `app.js` — rendering, navigation, theme, and reveal interactions
 - `assets/github-avatar-circle-500.png` — upload-ready GitHub and homepage avatar
-- `scripts/build_cv.py` — reproducible English CV source
+- `scripts/build_cv.py` — English CV build entry point
+- `scripts/build_cv_v2.py` — current two-column academic CV layout and content
 - `output/pdf/Yueqing-Xing-CV-English.pdf` — generated English CV
 - `favicon.svg` — browser-tab icon
 - `.nojekyll` — tells GitHub Pages to serve the files directly

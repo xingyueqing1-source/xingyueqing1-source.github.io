@@ -367,4 +367,6 @@ def build():
 
 
 if __name__ == "__main__":
-    build()
+    from build_cv_v2 import build as build_v2
+
+    build_v2()

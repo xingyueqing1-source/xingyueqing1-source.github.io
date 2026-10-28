@@ -1,2 +1,3 @@
 tmp/
 assets/github-avatar-circle.png
+__pycache__/

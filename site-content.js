@@ -7,7 +7,7 @@ window.siteContent = {
   profile: {
     name: "Yueqing Xing",
     shortName: "Yueqing",
-    title: "B.Eng. Candidate in Cybersecurity",
+    title: "B.Eng. Candidate in Cybersecurity · 2027",
     affiliation: "Nanjing University of Science and Technology",
     location: "Nanjing, China",
     avatar: "assets/github-avatar-circle-500.png",
@@ -25,7 +25,7 @@ window.siteContent = {
   },
 
   about: [
-    "Hello — I’m Yueqing Xing, a fourth-year undergraduate in Cybersecurity at the School of Cyber Science and Engineering, Nanjing University of Science and Technology. My interests lie at the intersection of machine learning, recommender systems, matrix completion, and uncertainty quantification.",
+    "Hello — I’m Yueqing Xing, a fourth-year undergraduate in Cybersecurity at the School of Cyber Science and Engineering, Nanjing University of Science and Technology, expecting to graduate in June 2027. My interests lie at the intersection of machine learning, recommender systems, matrix completion, and uncertainty quantification.",
     "I am interested in developing reliable learning methods that combine finite-sample guarantees with practical implementations. My recent work focuses on conformal inference for binary matrix completion, especially under distribution shift and model misspecification.",
   ],
 
@@ -34,8 +34,9 @@ window.siteContent = {
       eyebrow: "Open-source research",
       title: "Conformalized 1-Bit Matrix Completion",
       shortTitle: "C1B-MC",
-      authors: "Yueqing Xing",
-      venue: "Accepted to an ICDM 2026 Workshop",
+      authors: "Yueqing Xing, Siyuan Wu, Ji Cui, Liangliang Yuan",
+      venue:
+        "Accepted to TrustRS — Workshop on Trustworthy Recommender Systems at IEEE ICDM 2026",
       description:
         "A distribution-free framework for uncertainty quantification in binary matrix completion. It uses odds-ratio weighting to address covariate shift and provides exact finite-sample marginal coverage bounds with infinity-norm truncation.",
       tags: ["Conformal prediction", "Matrix completion", "Python"],
@@ -52,9 +53,9 @@ window.siteContent = {
     },
     {
       eyebrow: "Research project",
-      title: "Elastic Net and Nuclear Norm Matrix Regression for Face Recognition",
+      title: "The Matrix Regression Model Based on Elastic Net and Its Application in Face Recognition",
       shortTitle: "ENNMR",
-      authors: "Core project member",
+      authors: "Liangliang Yuan, Yueqing Xing, Siyuan Wu, Jiacheng Yin",
       venue: "Accepted to ICETCI 2026",
       description:
         "A matrix-regression approach that combines Elastic Net regularization with the nuclear norm to retain two-dimensional image structure while encouraging coefficient sparsity. The project includes ADMM-based implementation, ablation studies, and convergence analysis under illumination and occlusion shifts.",
@@ -82,7 +83,7 @@ window.siteContent = {
     },
     {
       date: "2026",
-      text: "Our C1B-MC work was accepted to an ICDM 2026 Workshop.",
+      text: "Our C1B-MC work was accepted to TrustRS at IEEE ICDM 2026.",
       url: "",
     },
     {
